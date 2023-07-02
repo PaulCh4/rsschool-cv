@@ -1,29 +1,63 @@
-# Paul Chepikov
-![logo](https://scontent-waw1-1.cdninstagram.com/v/t51.2885-15/106285351_323194055507315_2493809770577875816_n.jpg?stp=dst-jpg_e35&_nc_ht=scontent-waw1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=GSi120mNa6QAX_a8-XF&edm=ABmJApABAAAA&ccb=7-5&ig_cache_key=MjM0NjA5MjI4MDE3NTQzMDQwMw%3D%3D.2-ccb7-5&oh=00_AfDNKx7e_2JGDEVL-jDQaj2oBjZm_J1TvSE0_ed9W07Gzg&oe=64A5F6E7&_nc_sid=b41fef)
+# Pavel Chepikov
+![logo](https://www.besthdwallpaper.com/overwatch/captain-pharah-overwatch-video-game-dt_en-US-66850.html)
 
 ## Student BSUIR
 
 ## Contact informateion
-**Phone:** +375*********
 **E-mail:** pavelchepikov07@gmail.com
-**Telegram:** @Paul
+**Discord(rsschool):** Paul Ch___v
   
 ## Briefly About Myself:
-...
+As a student at the university, I tried languages ​​such as C #, C ++, Python, JS and others as laboratory work, but at the moment I would like to develop either in the direction of game development or front-end development, as I see this as a way to combine technical skills and creativity. In my free time I study CG-Art and Photoshop.  
   
 ## Skills and Proficiency:
-*
-*
-*
+* HTML, CSS, JavaScript, React - Basics
+* VS Code, IntelliJ IDEA
+* MySQL, OracleDatabase
+* Adobe Photoshop
   
 ## Code example:
-  ...
+  **Part of the university assignment**: *Given a string consisting of lowercase English letters. Replace all letters in it after the vowels with the following alphabetically (z is replaced by a).*
   ```
-  console.log('Hello World!')
+    using System;
+    using System.Text;
+
+    namespace LR2._3
+    {
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                Random random = new Random();
+                StringBuilder text = new StringBuilder("ajxyieualtirctbayultwuyrabyzikyudfilctayrxlnwiafhusd,tcyilyxiaofhnguailtyux.nHz.xtu,zgbhjcdtyara;io;zuitryicwtau");
+                StringBuilder vowels = new StringBuilder("eyuioa ");
+
+                Console.WriteLine(text);
+                for (int i = 0; i < text.Length; i++)
+                {
+                    for (int j = 0; j < vowels.Length; j++)
+                    {
+                        if(text[i]==vowels[j])
+                        {
+                            if (text[i + 1] == 'z')
+                            {
+                                text[i + 1] = 'a';
+                                continue;
+                            }
+                            text[i+1] = Convert.ToChar(Convert.ToInt32(text[i+1])+1);
+                        }
+                    }
+                }
+                Console.WriteLine(text);
+                Console.ReadLine();
+            }
+        }
+    }
   ```
 
-## Courses:
-...
+## Education:
+* BSUIR - System Programmer Engineer - Higher education (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
   
 ## Languages:
 * English - Basic
