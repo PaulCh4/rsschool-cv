@@ -1,5 +1,5 @@
 # Pavel Chepikov
-![logo](https://www.besthdwallpaper.com/overwatch/captain-pharah-overwatch-video-game-dt_en-US-66850.html)
+![logo](https://cutewallpaper.org/21/pharah-phone-wallpaper/Low-poly-Pharah-4k-wallpapers.png)
 
 ## Student BSUIR
 
