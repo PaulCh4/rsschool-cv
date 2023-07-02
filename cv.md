@@ -4,7 +4,7 @@
 ## Student BSUIR
 
 ## Contact informateion
-**E-mail:** pavelchepikov07@gmail.com
+**E-mail:** pavelchepikov07@gmail.com 
 **Discord(rsschool):** Paul Ch___v
   
 ## Briefly About Myself:
